@@ -1,0 +1,86 @@
+body {
+  background-color: #F5FFC6
+}
+
+h1 {
+  margin-top: 0px;
+  font-weight: bolder;
+  text-decoration: underline;
+  font-family: sans-serif;
+  text-align: center;
+  color: #252627;
+}
+
+h1.home-header {
+  font-size: 65px;
+  margin-bottom: 65px;
+}
+
+h1.recipe-header {
+  font-size: 50px;
+  margin-bottom: 20px
+}
+
+h2, p {
+  text-align: center;
+}
+
+h2 {
+  font-size: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: large;
+}
+
+
+a {
+  text-align: center;
+  display: block;
+  font-size: 40px;
+  color: #252627;
+  text-decoration: none;
+}
+
+.container.recipe-container {
+  margin-left: 30%;
+  margin-right: 30%;
+  border-style: solid;
+  border-radius: 15px;
+}
+
+.container.ingredients-container, .container.steps-container {
+  text-align: center;
+}
+
+ul, ol {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 0px;
+  text-align: left;
+  display: inline-block;
+  font-size: large;
+}
+
+#odin-project-img, .recipe-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#odin-project-img {
+  margin-top: 90px;
+  width: 900px;
+}
+
+.recipe-img {
+  margin-top: 10px;
+  margin-bottom: 15px;
+  width: 550px;
+}
+
+#pork-tenderloin-img {
+  width: 450px
+}
